@@ -1,8 +1,8 @@
 {
   "name": "11-react-bear-app",
-  "page d'accueil" : " http://notlimai.github.io/BeerApp/ " ,
   "version": "0.1.0",
   "private": true,
+  "page d'accueil" : " http://notlimai.github.io/BeerApp/ " ,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
