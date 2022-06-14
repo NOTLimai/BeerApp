@@ -124,7 +124,7 @@ class OneBeer extends React.Component {
                                 </div>
                             </div>
                             <div className='col-lg-4 imgGlassBeer'>
-                                <img className='imgGlass pt-5' src={'process.env.PUBLIC_URL/images/glass-' + entier +'.jpg'}></img>
+                                <img className='imgGlass pt-5' src={process.env.PUBLIC_URL + '/images/glass-' + entier +'.jpg'}></img>
                                 <p className='fs-5 pt-3'><b>EBC { beer.ebc } Glass ({entier})</b></p>
                             </div>
                         </div>

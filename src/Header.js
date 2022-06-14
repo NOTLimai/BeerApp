@@ -15,7 +15,7 @@ class Header extends React.Component {
                 <h1 className='textHeader'>{this.props.name}</h1>
                 <Link to={'/carts'}>
                     <p className='textHeader'>
-                        <img className='cartImg' src='process.env.PUBLIC_URL/images/cart.png'></img>
+                        <img className='cartImg' src={process.env.PUBLIC_URL + '/images/cart.png'}></img>
                     </p>
                 </Link>
             </div>
