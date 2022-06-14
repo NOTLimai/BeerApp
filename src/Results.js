@@ -23,7 +23,7 @@ class Results extends React.Component {
             }) 
         }
         else {
-            this.setState({ beers: JSON.parse(localStorage.getItem('beer'))})
+            this.setState({ beers: JSON.parse(localStorage.getItem('beer')), loading: false})
         }
     }
 
