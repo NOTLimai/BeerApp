@@ -87,6 +87,7 @@ code {
 
 .beerImg {
   width: 50px;
+  object-fit: cover;
 }
 
 .beerHover:hover {
