@@ -61,7 +61,7 @@ class OneBeer extends React.Component {
                             </div>
                             <div className='col-lg-7'>
                                 <h1 className='beerName text-start fs-3'>{ beer.name }</h1>
-                                <p className='fs-5'>{ beer.description }</p>
+                                <p className='fs-5 text-start'>{ beer.description }</p>
                             </div>
                         </div>
                         <div className='d-flex'>
