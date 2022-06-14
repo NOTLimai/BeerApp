@@ -13,6 +13,7 @@ class Search extends React.Component {
 
     hello = () => {
         this.props.router.navigate(`/search/${this.state.search}`);
+        this.setState({search: ''})
     }
 
     render () {

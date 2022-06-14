@@ -26,6 +26,11 @@ class Results extends React.Component {
                 this.setState({ beers: response.data})
             })  
         }
+        else if ( prevProps.router != this.props.router ) {
+            axios.get(`https://api.punkapi.com/v2/beers/`).then(response => {
+                this.setState({ beers: response.data})
+            })  
+        }
     }
 
     render () {
