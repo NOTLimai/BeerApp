@@ -10,7 +10,7 @@ import Panier from './Panier';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/BearApp/" >
+    <BrowserRouter basename={process.env.PUBLIC_URL} >
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="biere-seule/:id/:name" element={<OneBeer />} />
