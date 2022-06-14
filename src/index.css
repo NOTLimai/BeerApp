@@ -1,13 +1,143 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(255,196,37);
+  background: linear-gradient(180deg, rgba(255,196,37,1) 0%, rgba(234,170,0,1) 48%);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.textHeader {
+  font-size: 50px;
+  font-weight: 200;
+  font-family: 'Bevan', sans-serif;
+  text-align: center;
+  /* transform: rotate(-5deg); */
+  margin-bottom: 5%;
+  padding-top: 20px;
+}
+
+.search {
+  text-align: center;
+}
+
+.inputHeader {
+  font-size: 25px;
+  padding: 10px;
+  width: 40%;
+  margin-bottom: 30px;
+}
+
+.btnHeader {
+  font-size: 27px;
+  background-color: rgb(187, 123, 4);
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 20%;
+}
+
+.btnHeader:hover {
+  background-color: rgb(176, 115, 0);
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bgCard {
+  background-color: white;
+  text-align: center;
+  height: 100%;
+}
+
+.bgRed{
+  width: 100%;
+  height: 10px;
+  background-color: red;
+}
+
+.beerName {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.beerImg {
+  width: 50px;
+}
+
+.beerHover:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.trans {
+  transition: 0.5s;
+}
+
+.oneBeerImg {
+  width: 70px;
+}
+
+.imgGlass {
+  width: 250px;
+}
+
+.btnCommande {
+  background-color: rgb(221, 75, 75);
+  color: white;
+  border: none;
+  font-size: 25px;
+  padding: 5px;
+}
+
+.imgGlassBeer {
+  margin-left: 15%;
+}
+
+.textdeco {
+  text-decoration: none;
+  color: black;
+}
+
+.textdeco:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.cartImg {
+  width: 50px;
+  height: 50px;
+}
+
+.img {
+  width: 100px;
+  text-align: center;
+  margin-top: 20%;
+  margin-left: 45%;
+}
+
+.loaderP {
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  text-align: center;
 }
