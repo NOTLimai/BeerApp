@@ -49,7 +49,7 @@ class Panier extends React.Component {
                                                 <div className='col-lg-7'>
                                                     <h1 className='beerName pt-5'>{ beer.name }</h1>
                                                     <p >{ beer.description }</p>
-                                                    <p className='fs-4'>Price: {beer.srm} €</p>
+                                                    <p className='fs-4'>Price: {beer.srm} l€</p>
                                                 </div>
                                             </div>
                                         </div>
