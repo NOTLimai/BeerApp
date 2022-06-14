@@ -1,5 +1,6 @@
 {
   "name": "11-react-bear-app",
+  "page d'accueil" : " http://notlimai.github.io/BeerApp/ " ,
   "version": "0.1.0",
   "private": true,
   "dependencies": {
